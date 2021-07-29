@@ -25,7 +25,7 @@ public class HuntCommand implements CommandExecutor {
 		if (!this.plugin.Speedrunners.contains(args[0])) {
 			
 			this.plugin.Speedrunners.add(args[0]);
-			plr.setGlowing(true);
+			plr.setGlowing(true);       
 			Bukkit.broadcastMessage(args[0] + " is now marked as a speedrunner!");		
 			
 		} 
